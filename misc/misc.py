@@ -55,6 +55,6 @@ class Misc(BaseCog):
         """
         await ctx.send(
             "{} nibbles on {}".format(
-                ctx.author.name, name
+                ctx.author.mention, name
             )
         )
