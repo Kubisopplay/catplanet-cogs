@@ -47,3 +47,14 @@ class Misc(BaseCog):
                 ctx.author.mention, name
             )
         )
+
+    @commands.command()
+    async def nibble(self, ctx: Context, name: str):
+        """
+        Nibble, nom
+        """
+        await ctx.send(
+            "{} nibbles on {}".format(
+                ctx.author.name, name
+            )
+        )
