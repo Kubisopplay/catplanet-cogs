@@ -1,0 +1,12 @@
+{
+    "author": ["Riggle"],
+    "install_msg": "Misc cog installed",
+    "name": "Miscellaneous",
+    "short": "Misc",
+    "description": "catcatcatcatcatcatcatcatcatcatcat",
+    "permissions" : ["Send Messages"],
+    "tags": [
+        "Fun",
+        "Cat"
+    ]
+}
